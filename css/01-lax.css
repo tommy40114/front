@@ -1,0 +1,68 @@
+body {
+  height: 5000px;
+}
+
+.banner {
+  width: 100%;
+  height: 960px;
+  background-color: aquamarine;
+}
+
+.quotation_download {
+  width: 100%;
+  height: 1250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 220px 0px 300px;
+  margin-top: 960px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: -30px;
+  z-index: 9999;
+}
+
+.quotation_download .sea_bg {
+  width: 100%;
+  height: 1250px;
+  position: absolute;
+  bottom: -700px;
+  left: -10px;
+}
+
+.quotation_download .metal {
+  width: 240px;
+  height: 240px;
+  background-image: url(../img/01-index/gold_logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quotation_download .ship {
+  position: absolute;
+  bottom: 350px;
+  left: -750px;
+  z-index: -99999 !important;
+}
+
+.quotation_download .wave {
+  position: absolute;
+  z-index: -1;
+  bottom: 50px;
+  left: -200px;
+  z-index: -9999 !important;
+}
+
+.quotation_download .whitemask {
+  position: absolute;
+  width: 100%;
+  height: 230px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, white 100%);
+  bottom: 0px;
+  left: 0px;
+}
+/*# sourceMappingURL=01-lax.css.map */

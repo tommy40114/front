@@ -1,0 +1,72 @@
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #48FAFF;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+
+      .swiper-container {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+        .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: auto;
+
+        filter: grayscale(100%);
+
+          img{
+              width: 100%;
+          }
+
+        }
+
+        // .swiper-button-next,
+        // .swiper-button-prev {
+        // background-image: url('/img/arrow_left_icon.png');
+        // background-position: center;
+        // background-size: auto;
+        // }
+
+        .swiper-button-prev,
+        .swiper-button-next{
+          background-position: center;
+          background-size: cover;
+
+          width: calc(var(--swiper-navigation-size) / 44 * 44);
+          height: var(--swiper-navigation-size);
+      }
+      .swiper-button-prev{
+        background-image:url("/img/01-index/arrow_left_icon.png");
+      }
+      
+      .swiper-button-next{
+        background-image:url("/img/01-index/arrow_right_icon.png");
+      } 
+      .swiper-button-next:after,
+      .swiper-button-prev:after{
+        content:initial;
+      }
+
+        .swiper-slide-active{
+            filter: grayscale(0%); 
+        }
+
+      
+      }
+      
+    }
+
+
+
+    
